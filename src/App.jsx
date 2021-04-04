@@ -2,6 +2,7 @@ import React from 'react';
 import Note from './Note';
 import CreateArea from "./CreateArea";
 import { useState } from 'react';
+import HighlightIcon from '@material-ui/icons/Highlight';
 
 export default App;
 
@@ -50,6 +51,6 @@ function Footing() {
 
 function Heading() {
     return ( <header>
-        <h1>Keeper</h1>
+        <h1><HighlightIcon></HighlightIcon>Keeper</h1>
     </header> );
 }
